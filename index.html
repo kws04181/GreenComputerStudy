@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 리셋 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!-- 구글 머티리얼 아이콘 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- CSS파일 -->
+  <link rel="stylesheet" href="index.css">
+  <!-- AOS 라이브러리 -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- 스와이퍼 라이브러리 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <title>그린컴퓨터 과제</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <div class="headerContainer">
+        <div class="logo">
+          <img src="img/logo_porter.jpg" alt="로고 이미지">
+        </div>
+        <ul class="nav">
+          <li>Main</li>
+          <li>CollaboRation</li>
+          <li>Journal</li>
+          <li>About</li>
+          <li>Store</li>
+        </ul>
+        <div class="utility">
+          <span class="material-icons" style="font-size: 24px;">search</span>
+          <span class="material-icons">headset_mic</span>
+          <span class="material-icons" style="font-size: 24px;">person</span>
+          <span class="material-icons">shopping_cart</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="mainWrapper">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/메인 슬라이드3.jpg"></div>
+        <div class="swiper-slide"><img src="img/메인 슬라이드1.jpg"></div>
+        <div class="swiper-slide"><img src="img/메인 슬라이드5.jpeg"></div>
+        <div class="swiper-slide"><img src="img/메인 슬라이드2.jpg"></div>
+        <div class="swiper-slide"><img src="img/메인 슬라이드4.jpg"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- 페이징 버튼 처리 상황에 따라 추가 삭제가능-->
+    <div class="swiper-pagination" style="position: relative; bottom: 0;"></div>
+    <!-- POTER BEST ITEM -->
+    <section class="con1 inner">
+      <h1>POTER BEST ITEM</h1>
+      <p>한결같이 사랑 받는 베스트 아이템</p>
+      <div class="tapContainer">
+        <ul class="tapMenu">
+          <li><a href="#tabs-1">Backpack</a></li>
+          <li><a href="#tabs-2">Tote bag</a></li>
+          <li><a href="#tabs-3">Helmet bag</a></li>
+          <li><a href="#tabs-4">Shoulder bag</a></li>
+          <li><a href="#tabs-5">Waist bag</a></li>
+        </ul>
+        <div class="highLightContainer">
+          <span class="highLight">
+
+          </span>
+        </div>
+        <div class="tapContents">
+          <div id="tabs-1">
+            <div class="section">
+              <img src="img/tap1-1.jpg" alt="bag">
+              <h1>COMPART Backpack</h1>
+              <h3>2 Colors</h3>
+              <h2>418,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap1-2.jpg" alt="bag">
+              <h1>HYPE Backpack</h1>
+              <h3>2 Colors</h3>
+              <h2>998,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap1-3.jpg" alt="bag">
+              <h1>MILE Backpack</h1>
+              <h3>2 Colors</h3>
+              <h2>398,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap1-4.jpg" alt="bag">
+              <h1>CRAG Backpack</h1>
+              <h3>2 Colors</h3>
+              <h2>518,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+          </div>
+          <div id="tabs-2">
+            <div class="section">
+              <img src="img/tap2-1.jpeg" alt="bag">
+              <h1>COMPART Tote bag</h1>
+              <h3>2 Colors</h3>
+              <h2>418,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap2-2.jpeg" alt="bag">
+              <h1>HYPE Tote bag</h1>
+              <h3>2 Colors</h3>
+              <h2>998,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap2-3.jpeg" alt="bag">
+              <h1>MILE Tote bag</h1>
+              <h3>2 Colors</h3>
+              <h2>398,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap2-4.jpeg" alt="bag">
+              <h1>CRAG Tote bag</h1>
+              <h3>2 Colors</h3>
+              <h2>518,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+          </div>
+          <div id="tabs-3">
+            <div class="section">
+              <img src="img/tap3-1.jpg" alt="bag">
+              <h1>COMPART Helmet bag</h1>
+              <h3>2 Colors</h3>
+              <h2>418,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap3-2.jpg" alt="bag">
+              <h1>HYPE Helmet bag</h1>
+              <h3>2 Colors</h3>
+              <h2>998,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap3-3.jpg" alt="bag">
+              <h1>MILE Helmet bag</h1>
+              <h3>2 Colors</h3>
+              <h2>398,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap3-4.jpg" alt="bag">
+              <h1>CRAG Helmet bag</h1>
+              <h3>2 Colors</h3>
+              <h2>518,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+          </div>
+          <div id="tabs-4">
+            <div class="section">
+              <img src="img/tap4-1.jpg" alt="bag">
+              <h1>COMPART Shoulder bag</h1>
+              <h3>2 Colors</h3>
+              <h2>418,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap4-2.jpg" alt="bag">
+              <h1>HYPE Shoulder bag</h1>
+              <h3>2 Colors</h3>
+              <h2>998,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap4-3.jpg" alt="bag">
+              <h1>MILE Shoulder bag</h1>
+              <h3>2 Colors</h3>
+              <h2>398,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap4-4.jpg" alt="bag">
+              <h1>CRAG Shoulder bag</h1>
+              <h3>2 Colors</h3>
+              <h2>518,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+          </div>
+          <div id="tabs-5">
+            <div class="section">
+              <img src="img/tap5-1.jpg" alt="bag">
+              <h1>COMPART Waist bag</h1>
+              <h3>2 Colors</h3>
+              <h2>418,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap5-2.jpg" alt="bag">
+              <h1>HYPE Waist bag</h1>
+              <h3>2 Colors</h3>
+              <h2>998,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap5-3.jpg" alt="bag">
+              <h1>MILE Waist bag</h1>
+              <h3>2 Colors</h3>
+              <h2>398,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+            <div class="section">
+              <img src="img/tap5-4.jpg" alt="bag">
+              <h1>CRAG Waist bag</h1>
+              <h3>2 Colors</h3>
+              <h2>518,000원</h2>
+              <span id="basic" class="material-icons">favorite</span>
+            </div>
+          </div>
+        </div>
+        <div class="btnWrapper">
+          <button class="btn">
+            <h1>VIEW ALL</h1>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M1.5 12C1.5 11.5858 1.83579 11.25 2.25 11.25H19.9393L15.2197 6.53033C14.9268 6.23744 14.9268 5.76256 15.2197 5.46967C15.5126 5.17678 15.9874 5.17678 16.2803 5.46967L22.2803 11.4697C22.5732 11.7626 22.5732 12.2374 22.2803 12.5303L16.2803 18.5303C15.9874 18.8232 15.5126 18.8232 15.2197 18.5303C14.9268 18.2374 14.9268 17.7626 15.2197 17.4697L19.9393 12.75H2.25C1.83579 12.75 1.5 12.4142 1.5 12Z"
+                fill="#FCB33B" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <!-- PORTER  JOURNAL -->
+    <section class="con2 inner">
+      <h1>PORTER JOURNAL</h1>
+      <p>새롭게 출발하는 지금, 포터 NEW STYLE</p>
+      <div class="journalContainer">
+        <div class="left">
+          <div class="leftTop" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="50"
+            data-aos-once="false">
+            <div class="textArea">
+              <h1 style="font-size: 39px; margin-bottom: 10px;">7 DAYS WITH HEAT</h1>
+              <h2 style="font-size: 22px;;">일주일동안 HEAT와 함께할 수 있는 데일리룩을 제안합니다.</h2>
+            </div>
+          </div>
+          <div class="leftBottom">
+            <div class="item" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-delay="50"
+              data-aos-once="false"></div>
+            <div class="item" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-delay="50"
+              data-aos-once="false"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="rightTop">
+            <div class="rightImgArea" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-delay="50"
+              data-aos-once="false"></div>
+            <div class="rightTextArea" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-delay="150"
+              data-aos-once="false">
+              <div>
+                <h2 style="font-size: 18px; padding-top: 50px; padding-bottom: 5px;">
+                  STYLE
+                </h2>
+                <h1 style="font-size: 20px;">
+                  새로운 출발을 포터와 함께
+                </h1>
+                <p style="font-size: 12px; color: #aaa; font-weight: normal; padding-top: 5px; padding-bottom: 15px;">
+                  2023. 03. 24
+                </p>
+                <h3 style="font-size: 12px; font-weight: normal; line-height: 16px;">
+                  새로운 출발을 앞둔 당신에게,<br>
+                  설레임을 담을 수 있는 포터의 아이템을 제안합니다.
+                </h3>
+              </div>
+              <div></div>
+            </div>
+
+          </div>
+          <div class="rightBottom" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="50"
+            data-aos-once="false">
+
+          </div>
+        </div>
+      </div>
+      <div class="btnWrapper">
+        <button class="btn">
+          <h1 style="  font-size: 22px;">VIEW ALL</h1>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.5 12C1.5 11.5858 1.83579 11.25 2.25 11.25H19.9393L15.2197 6.53033C14.9268 6.23744 14.9268 5.76256 15.2197 5.46967C15.5126 5.17678 15.9874 5.17678 16.2803 5.46967L22.2803 11.4697C22.5732 11.7626 22.5732 12.2374 22.2803 12.5303L16.2803 18.5303C15.9874 18.8232 15.5126 18.8232 15.2197 18.5303C14.9268 18.2374 14.9268 17.7626 15.2197 17.4697L19.9393 12.75H2.25C1.83579 12.75 1.5 12.4142 1.5 12Z"
+              fill="#FCB33B" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- PORTER  Collection -->
+    <section class="con3">
+      <div class="collectionBg">
+        <div class="inner">
+          <div class="con3_left">
+
+          </div>
+          <div class="con3_right">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section4 Area -->
+    <section class="con4 inner">
+      <h1>PORTER FAQ</h1>
+      <p>자주 묻는 질문</p>
+      <div id="faq" style="width: 100%;">
+        <div class="panel_question ">
+          <div class="panel_heading">
+            <span>Q.</span>
+            <h1>교환/환불 안내</h1>
+            <img src="img/arrowTop.png" alt="">
+          </div>
+          <div class="panel_body" id="this1">
+            <p>반품/교환은 미사용 제품에 한해 상품 수령일로부터 7일 이내에 가능하며, 임의 반품은 불가합니다.</p>
+            <p>변심 반품의 경우 제품 및 포장 상태가 재판매 가능하여야 합니다.</p>
+            <p>더스트백, 상품택 중 하나라도 없을 경우, 반품처리가 되지 않습니다.</p>
+            <p>상품 불량인 경우는 배송비를 포함한 전액이 환불됩니다.</p>
+            <p>오렌지 컬러 원사가 보이는 제품은 불량 상품이 아닌 정상 상품이며,</p>
+            <p>제조 공정상 봉제선 주변의 원단이 부풀어 오를 수 있으며 이는 교환/환불 사유에 해당하지 않습니다.</p>
+            <p>쇼핑백은 교환/반품/환불이 불가합니다.</p>
+            <p>스냅버튼, 스트랩 거는 D링, 집게고리 같은 부자재 사용시 도색이 까지고 벗겨지는 현상은 불량이 아니므로 반품/교환이 어렵습니다.</p>
+          </div>
+        </div>
+        <div class="panel_question">
+          <div class="panel_heading">
+            <span>Q.</span>
+            <h1>주의 사항</h1>
+            <img src="img/arrowTop.png" alt="">
+          </div>
+          <div class="panel_body" id="this2">
+            <p>지갑류를 제외한 악세서리 상품은 변심에 따른 교환/환불이 불가합니다.</p>
+            <p>구매 내역이 확인되지 않는 경우 교환/환불이 불가합니다.</p>
+            <p>구매자가 미성년자인 경우에는 상품 구입 시 법정대리인이 동의하지 아니하면 미성년자 본인 또는 법정대리인이 구매취소 할 수 있습니다.</p>
+            <p>온라인스토어에서 구입한 상품은 매장에서 교환/환불이 불가합니다.</p>
+            <p>패턴이 있는 제품들은 원단의 재단에 따라, 상품의 패턴이 조금씩 상이할 수 있습니다. 대표이미지는 참고만 부탁드리며 해당사유로 인한 교환/환불이 불가합니다.</p>
+          </div>
+        </div>
+        <div class="panel_question">
+          <div class="panel_heading">
+            <span>Q.</span>
+            <h1>제품 교환/환불 과정</h1>
+            <img src="img/arrowTop.png" alt="">
+          </div>
+          <div class="panel_body" id="this3">
+            <p>포터 온라인스토어에서 구매한 제품을 반품하기 위해서는 아래의 과정을 통해 접수해 주시기 바랍니다.</p>
+            <p style="text-indent: 20px; padding: 5px 0;">1. 구매한 제품을 배송된 그대로의 형태로 포장합니다.</p>
+            <p style="text-indent: 20px; padding: 5px 0;">2. 상품 수령 후 교환/반품 가능 기간 내 "*마이페이지"에서 직접 접수 하신 뒤, 상품과 동봉된 반품 및
+              교환신청서를
+              작성해 주세요.</p>
+            <p style="text-indent: 20px; padding: 5px 0;">반품주소지 : 서울시 강남구 신사동 648-27번지 히든파크 1층 포터코리아 압구정점 (지정된 반송처로 반송되지
+              않을
+              시, 교환/반품 절차가 지연될 수 있습니다.)</p>
+            <p>* 출고 이후 환불요청 시 상품 회수 후 처리됩니다. * 쇼핑백은 교환/반품/환불이 불가합니다.</p>
+          </div>
+        </div>
+        <div class="panel_question">
+          <div class="panel_heading">
+            <span>Q.</span>
+            <h1>A/S 안내</h1>
+            <img src="img/arrowTop.png" alt="">
+          </div>
+          <div class="panel_body" id="this4">
+            <p>국내 공식수입원 ㈜스타럭스를 통해 구매한 상품만 AS 가능합니다.</p>
+            <p>사용 후 발생한 수선 건에 대해서는 유상 수선이 원칙입니다.</p>
+            <p>모든 수선은 제조사인 일본에서의 진행이 원칙이며, 유상의 경우 배송비가 발생될 수 있으며, 경우에 따라 2-3개월 수선 기간이 소요 됩니다.</p>
+            <p>시즌 제품 및 컬렉션 종료로 인하여 일부 제품의 경우 부자재 재고가 없을 수 있으며, AS 가능여부에 따라 대체 가능한 부속품으로 제안을 드립니다.</p>
+            <p>포터 코리아에서는 세탁 서비스를 진행하지 않습니다. 단순한 관리로 털어 낼 수는 있으나 심각한 오염은 전문 세탁점에 의뢰 바랍니다.</p>
+          </div>
+        </div>
+        <div class="panel_question">
+          <div class="panel_heading">
+            <span>Q.</span>
+            <h1>가방 관리 방법</h1>
+            <img src="img/arrowTop.png" alt="">
+          </div>
+          <div class="panel_body" id="this5">
+            <p>천연 가죽 관리</p>
+            <p>스웨이드, 누벅 관리</p>
+            <p>에나멜 관리</p>
+            <p>면,마,모,실크 관리</p>
+            <p>나일론,아크릴,폴리에스테르 소재 관리</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer id="footerWrapper">
+      <div class="inner">
+        asdsadas
+      </div>
+    </footer>
+
+  </div>
+  <button id="btnTop">
+    Top
+  </button>
+
+  <script src="index.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      // direction: 'horizen',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {  
+        delay: 3000,   
+        disableOnInteraction: false,  
+      },
+    });
+
+  </script>
+
+</body>
+
+</html>
